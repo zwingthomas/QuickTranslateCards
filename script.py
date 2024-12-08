@@ -2,11 +2,15 @@ import json
 import os
 import random
 import sys
-
 from google.cloud import translate_v2 as translate
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
 
 JSON_FILENAME = "words.json"
 WORDS_FILENAME = "words.txt"
+DOCUMENT_ID = "1GhFCgqgs7tTqrgVyvgIwMGVCuWjqCsr66YNb-cuUMwU"
+SERVICE_ACCOUNT_FILE = "/Users/thomaszwinger/Documents/Dropcycle/jenkins/ansible/auth_gcp.json"
+SCOPES = ['https://www.googleapis.com/auth/documents.readonly']
 
 def load_words():
     # If JSON file doesn't exist, create it with empty "words"
@@ -60,7 +64,7 @@ def weighted_random_choice(words_list):
 def read_initial_words_from_file(filename):
     if not os.path.isfile(filename):
         print(f"Error: The words file '{filename}' does not exist.")
-        sys.exit(1)
+        return []
 
     words = []
     with open(filename, "r", encoding="utf-8") as f:
@@ -70,28 +74,69 @@ def read_initial_words_from_file(filename):
                 words.append(w)
     return words
 
+def append_new_word_to_file(word):
+    # Appends a single word or phrase to words.txt if it doesn't exist
+    # in the file already.
+    # We'll just append to ensure no duplicates from doc.
+    # You may want to check for duplicates in the file as well.
+    with open(WORDS_FILENAME, "a", encoding="utf-8") as f:
+        f.write(word + "\n")
+
+def get_docs_service():
+    # Create credentials from the service account JSON file
+    creds = service_account.Credentials.from_service_account_file(
+        SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+    service = build('docs', 'v1', credentials=creds)
+    return service
+
+def fetch_phrases_from_doc(document_id):
+    service = get_docs_service()
+    doc = service.documents().get(documentId=document_id).execute()
+    content = doc.get('body', {}).get('content', [])
+    phrases = []
+    for element in content:
+        if 'paragraph' in element:
+            paragraph = element['paragraph']
+            for elem in paragraph.get('elements', []):
+                text_run = elem.get('textRun')
+                if text_run and 'content' in text_run:
+                    text = text_run['content'].strip()
+                    if text:
+                        phrases.append(text)
+    return phrases
+
+def update_from_doc(words_list):
+    new_phrases = fetch_phrases_from_doc(DOCUMENT_ID)
+    existing_portuguese = {w["portuguese"].lower() for w in words_list}
+    to_add = [p for p in new_phrases if p.lower() not in existing_portuguese]
+
+    if not to_add:
+        print("No new phrases found in the document.")
+        return
+
+    print(f"Found {len(to_add)} new phrases to add.")
+    for phrase in to_add:
+        append_new_word_to_file(phrase)
+    print("Successfully appended new phrases to words.txt")
+
 def main():
-    # Check for credentials
     if "GOOGLE_TRANSLATE_APPLICATION_CREDENTIALS" not in os.environ:
         print("Error: GOOGLE_TRANSLATE_APPLICATION_CREDENTIALS environment variable not set.")
-        print("Set this variable to the path of your service account JSON key file.")
         sys.exit(1)
-    
-    # Check if user wants English first
-    english_first = ("-e" in sys.argv)
 
-    # Create translate client
-    translate_client = translate.Client()
-
-    # Read initial words from file
-    initial_words = read_initial_words_from_file(WORDS_FILENAME)
-
+    choice = input("Update? (Y/n): ").strip().lower()
     words_list = load_words()
+
+    if choice in ("y", "yes", ""):
+        update_from_doc(words_list)
+
+    english_first = ("-e" in sys.argv)
+    translate_client = translate.Client()
+    initial_words = read_initial_words_from_file(WORDS_FILENAME)
 
     # Ensure translations for new words
     for nw in initial_words:
         if find_word(words_list, nw) is None:
-            # Not found, translate and add with default weight 9
             translation = translate_word(nw, translate_client)
             words_list.append({
                 "portuguese": nw,
@@ -100,28 +145,21 @@ def main():
             })
 
     save_words(words_list)
-
     print("Press Ctrl+C to exit.")
     print("Quiz starting...")
 
     try:
         while True:
-            # Pick a random word according to weights
             word_obj = weighted_random_choice(words_list)
-
-            # Show the words based on mode
             if english_first:
-                # Show English first
                 print("\nEnglish: ", word_obj["english"])
                 input("Press Enter to see the Portuguese word...")
                 print("Portuguese: ", word_obj["portuguese"])
             else:
-                # Show Portuguese first
                 print("\nPortuguese: ", word_obj["portuguese"])
                 input("Press Enter to see the English translation...")
                 print("English: ", word_obj["english"])
 
-            # Ask user for difficulty rating
             while True:
                 rating = input("How difficult was it? (0=Known, 9=Need to see more) [0-9]: ")
                 if rating.isdigit() and 0 <= int(rating) <= 9:
@@ -130,13 +168,10 @@ def main():
                 else:
                     print("Please enter a valid number between 0 and 9.")
 
-            # Update the weight
             word_obj["weight"] = rating
             save_words(words_list)
-
     except KeyboardInterrupt:
         print("\nExiting...")
-        # Save before exit
         save_words(words_list)
 
 if __name__ == "__main__":
