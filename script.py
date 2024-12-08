@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import re
 import sys
 from google.cloud import translate_v2 as translate
 from google.oauth2 import service_account
@@ -77,7 +78,7 @@ def add_new_word(words_list, portuguese_word, english_word):
         "weight_pt_to_en": 9
     })
     save_words(words_list)
-    
+
 def translate_word(word, translate_client):
     # Translate from Portuguese (pt) to English (en)
     result = translate_client.translate(word, source_language='pt', target_language='en')
@@ -138,18 +139,41 @@ def get_docs_service():
 
 def fetch_phrases_from_doc(document_id):
     service = get_docs_service()
-    doc = service.documents().get(documentId=document_id).execute()
+    doc = service.documents().get(documentId=document_id, fields='*').execute()
     content = doc.get('body', {}).get('content', [])
-    phrases = []
+
+    # Accumulate text including line breaks
+    lines = []
     for element in content:
-        if 'paragraph' in element:
-            paragraph = element['paragraph']
-            for elem in paragraph.get('elements', []):
-                text_run = elem.get('textRun')
-                if text_run and 'content' in text_run:
-                    text = text_run['content'].strip()
-                    if text:
-                        phrases.append(text)
+        paragraph = element.get('paragraph')
+        if paragraph and 'elements' in paragraph:
+            paragraph_text_parts = []
+            for elem in paragraph['elements']:
+                if 'lineBreak' in elem:
+                    # Replace lineBreak with an actual newline character
+                    paragraph_text_parts.append('\n')
+                else:
+                    text_run = elem.get('textRun')
+                    if text_run and 'content' in text_run:
+                        paragraph_text_parts.append(text_run['content'])
+            
+            paragraph_text = "".join(paragraph_text_parts)
+            if not paragraph_text.endswith('\n'):
+                paragraph_text += '\n'
+            lines.append(paragraph_text)
+
+    all_text = "".join(lines)
+
+    # Replace all whitespace except space with newline.
+    # [^\S ] matches all whitespace except the normal space character.
+    # \S is any non-whitespace, so [^\S ] is any whitespace character that isn't a space.
+    clean_text = re.sub(r'[^\S ]', '\n', all_text)
+
+    # Now split by newline and filter out blank lines.
+    # This will treat any non-space whitespace (tabs, original newlines, etc.) as a phrase boundary,
+    # while allowing spaces to remain within phrases.
+    phrases = [line.strip() for line in clean_text.split('\n') if line.strip()]
+
     return phrases
 
 def update_from_doc(words_list, translate_client):
