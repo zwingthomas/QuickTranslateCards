@@ -1,0 +1,3016 @@
+{
+    "words": [
+        {
+            "portuguese": "Irei = Eu vou",
+            "english": "I will go = I will go",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "→ Irei ao supermercado",
+            "english": "→ I will go to the supermarket",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Estrada",
+            "english": "Road",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "→ Meu amigo é um motorista horrível, ele não pode ficar na estrada.",
+            "english": "→ My friend is a horrible driver, he can&#39;t stay on the road.",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Partes",
+            "english": "Parts",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "→ Nós devemos quebrar em partes. (physically breaking into parts)",
+            "english": "→ We must physically break into parts.",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "→ Nós devemos separar por partes. (Breaking an idea down into parts)",
+            "english": "→ We must break it down into parts. (Breaking an idea down into parts)",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Mudei (Mudar)",
+            "english": "I changed (Change)",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "→ Eu estava bebendo chá, agora eu bebo café. Eu mudei!",
+            "english": "→ I was drinking tea, now I drink coffee. I&#39;ve changed!",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Cá",
+            "english": "Here",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "→ Nos envie (envia = more casual) as caixas para cá.",
+            "english": "→ Send us (send = more casual) the boxes here.",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Permitido",
+            "english": "Allowed",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "→ Fumar não é permitido aqui.",
+            "english": "→ Smoking is not allowed here.",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Proibido",
+            "english": "Prohibited",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "→ Maconha é proibida em São Paulo.",
+            "english": "→ Marijuana is prohibited in São Paulo.",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Estacionar",
+            "english": "Park",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "→",
+            "english": "→",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Comunicação",
+            "english": "Communication",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Mandou",
+            "english": "Sent",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pelo menos",
+            "english": "At least",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sendo",
+            "english": "Being",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Segurança",
+            "english": "Security",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pintado",
+            "english": "Painted",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Antes",
+            "english": "Before",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Depois",
+            "english": "After",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Quarto",
+            "english": "Room",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Quadro",
+            "english": "Frame",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Barulho",
+            "english": "Noise",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Vivendo",
+            "english": "Living",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Reuniões",
+            "english": "Meetings",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Dirigir",
+            "english": "Drive",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Tivesse",
+            "english": "Had",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Trouxemos",
+            "english": "We brought",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Trouze",
+            "english": "Brought",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Trouxeram",
+            "english": "They brought",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Trouxe",
+            "english": "He brought",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Escolher",
+            "english": "To choose",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Comemorar",
+            "english": "Celebrate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Essenciais",
+            "english": "Essentials",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Ressonância magnética",
+            "english": "Magnetic resonance imaging",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Insuportável",
+            "english": "Unbearable",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Aconteceu",
+            "english": "It happened",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sentar",
+            "english": "To sit",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Movimentar",
+            "english": "Move",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Circulação",
+            "english": "Circulation",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Solicitação",
+            "english": "Request",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Quebrou",
+            "english": "It broke",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Irritante",
+            "english": "Irritating",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Planejar",
+            "english": "Plan",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Estressante",
+            "english": "Stressful",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pena",
+            "english": "Pity",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Cada vez mais",
+            "english": "More and more",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Seria",
+            "english": "He would be",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Chamada",
+            "english": "Call",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Tirar sarro",
+            "english": "Make fun",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Não faz diferença",
+            "english": "It makes no difference",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Impedir",
+            "english": "Prevent",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Fingir",
+            "english": "To fake",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Progredir",
+            "english": "Progress",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Quiropraxista",
+            "english": "Chiropractor",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Incomodar",
+            "english": "To disturb",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Alongar",
+            "english": "Stretch",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Discos",
+            "english": "Discs",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Barato",
+            "english": "Cheap",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Médico",
+            "english": "Doctor",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "De manhã cedo",
+            "english": "Early morning",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Bem cedo",
+            "english": "Very early",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Ameaça",
+            "english": "Threat",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pessoas suspeitas",
+            "english": "Suspicious people",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Honestamente",
+            "english": "Honestly",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Partes principais",
+            "english": "Main parts",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Formato",
+            "english": "Format",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Funcionando",
+            "english": "Working",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sentar-se",
+            "english": "Sit down",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Tossindo",
+            "english": "Coughing",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pílulas",
+            "english": "Pills",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Antibiótico",
+            "english": "Antibiotic",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Os remédios",
+            "english": "The remedies",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Os comprimidos",
+            "english": "The pills",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Suplemento alimentar",
+            "english": "Food supplement",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A crise",
+            "english": "The crisis",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eles me disseram",
+            "english": "They told me",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu fui informado",
+            "english": "I was informed",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Realizado",
+            "english": "Done",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Esteira",
+            "english": "Belt",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Se chama",
+            "english": "It&#39;s called",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Uma divisão",
+            "english": "A division",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Saudável",
+            "english": "Healthy",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Colegas de trabalho",
+            "english": "Coworkers",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Animado",
+            "english": "Excited",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Vai me tornar",
+            "english": "Will make me",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Se livrar de algo",
+            "english": "Get rid of something",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eventualmente",
+            "english": "Possibly",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Estratégia",
+            "english": "Strategy",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Um episódio",
+            "english": "An episode",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Usar um recurso",
+            "english": "Use a resource",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Medir",
+            "english": "Measure",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Repetição",
+            "english": "Repetition",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Uma conta",
+            "english": "An account",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Croácia",
+            "english": "Croatia",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Em breve",
+            "english": "Shortly",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Logo",
+            "english": "Logo",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Natal",
+            "english": "Christmas",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Alta temporada",
+            "english": "High season",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "O sol se põe às 4 da tarde",
+            "english": "The sun sets at 4 pm",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "O sol é fundamental",
+            "english": "The sun is essential",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Para a felicidade",
+            "english": "For happiness",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Transtorno",
+            "english": "Disorder",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Se tornar",
+            "english": "To become",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Se as coisas se tornarem estranhas",
+            "english": "If things get weird",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "TAS - Transtorno Afetivo Sazonal",
+            "english": "SAD - Seasonal Affective Disorder",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Cidadania",
+            "english": "Citizenship",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Cartão",
+            "english": "Card",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Rígido",
+            "english": "Hard",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Uma mudança",
+            "english": "A change",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Você cortou o cabelo?",
+            "english": "Did you cut your hair?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu tive uma entrevista",
+            "english": "I had an interview",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Diagnóstico de nuvem",
+            "english": "Cloud diagnostics",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Um canal",
+            "english": "A channel",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Canais",
+            "english": "Channels",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Construir",
+            "english": "Build",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Destruir",
+            "english": "Destroy",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Habilidades",
+            "english": "Skills",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Levantar peso",
+            "english": "Lift weights",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Fazer alongamento",
+            "english": "Stretching",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Mais dias sim, do que não",
+            "english": "More days yes than no",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Está doendo menos",
+            "english": "It&#39;s hurting less",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Muitas festas",
+            "english": "Lots of parties",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Sufocar",
+            "english": "Suffocate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Gaguejar",
+            "english": "Stutter",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu gaguejei",
+            "english": "I stuttered",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Confiante",
+            "english": "Trusting",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Quanto tempo!",
+            "english": "How long!",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "O aquecimento não está ligado",
+            "english": "The heating is not on",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ainda não",
+            "english": "Not yet",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Um cruzeiro",
+            "english": "A cruise",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Outono",
+            "english": "Fall",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Vento",
+            "english": "Wind",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Um contrato",
+            "english": "A contract",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Os donos dos apartamentos",
+            "english": "The owners of the apartments",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Um golpe",
+            "english": "A blow",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Dar um golpe",
+            "english": "Strike a blow",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Legalmente",
+            "english": "Legally",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Legal - dentro da lei",
+            "english": "Legal - within the law",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Bravo",
+            "english": "Bravo",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Essa paz não tem preço",
+            "english": "This peace is priceless",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A multa é 50% do valor restante do contrato",
+            "english": "The fine is 50% of the remaining value of the contract",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Dias de folga",
+            "english": "Days off",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Serviços na Nuvem",
+            "english": "Cloud Services",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 2
+        },
+        {
+            "portuguese": "A maioria não passa",
+            "english": "Most don&#39;t pass",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Antes disso",
+            "english": "Before that",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu me inscrevi",
+            "english": "I signed up",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Se inscrever",
+            "english": "Subscribe",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Assinar",
+            "english": "To sign",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu posso negociar",
+            "english": "I can negotiate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Uma conexão",
+            "english": "A connection",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Vale a pena voar 18 horas para descansar",
+            "english": "It&#39;s worth flying 18 hours to rest",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu não me importo",
+            "english": "I don&#39;t mind",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Cuidar",
+            "english": "To care",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "O roteiro",
+            "english": "The script",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Uma decisão",
+            "english": "A decision",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Aproveitar",
+            "english": "To enjoy",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Doar",
+            "english": "Donate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pesada",
+            "english": "Heavy",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Uma furadeira",
+            "english": "A drill",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Furar",
+            "english": "Drill",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Chave de soquete",
+            "english": "Socket wrench",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Parafusadeira",
+            "english": "Screwdriver",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Parafuso",
+            "english": "Screw",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Um pouco torto",
+            "english": "A little crooked",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu usei o celular como nível",
+            "english": "I used the cell phone as a level",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Não foi uma boa ideia",
+            "english": "It wasn&#39;t a good idea",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Não é tão exato",
+            "english": "It&#39;s not so accurate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Não é tão preciso",
+            "english": "It&#39;s not that accurate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Vai ser torto",
+            "english": "It&#39;s gonna be crooked",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Completamente",
+            "english": "Completely",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Parece bonito",
+            "english": "It looks nice",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Devolver as chaves",
+            "english": "Return the keys",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Arranhar",
+            "english": "Scratch",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Nossos gatos arranharam a porta",
+            "english": "Our cats scratched the door",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Cobrar",
+            "english": "Charge",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu não sei se isso vai ser cobrado",
+            "english": "I don&#39;t know if this will be charged",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Cobrir",
+            "english": "Cover",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu não sei se a taxa vai cobrir",
+            "english": "I don&#39;t know if the fee will cover it",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "O aluguel",
+            "english": "The rent",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Uma taxa única",
+            "english": "A single fee",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Focinho",
+            "english": "Muzzle",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Focinheira",
+            "english": "Muzzle",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pular",
+            "english": "To jump",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ele pulava",
+            "english": "He jumped",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Atacar",
+            "english": "Attack",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Um cachorro atacou",
+            "english": "A dog attacked",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Ele pulava em minha direção",
+            "english": "He jumped towards me",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A pessoa teve que ir para o hospital",
+            "english": "The person had to go to the hospital",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Essa regulação",
+            "english": "This regulation",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Essa regra",
+            "english": "This rule",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Corredor",
+            "english": "Corridor",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Em volta",
+            "english": "Around",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Andar pela casa",
+            "english": "Walk around the house",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Curtas distâncias",
+            "english": "Short distances",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu não sabia dessa função",
+            "english": "I didn&#39;t know about this function",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Saber de (alguma coisa)",
+            "english": "Know about (something)",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "de + essa = dessa",
+            "english": "of + this = of this",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Como foi o seu dia?",
+            "english": "How was your day?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Essa aula é a última do dia",
+            "english": "This class is the last of the day",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Muito legal",
+            "english": "Very cool",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Muito bom",
+            "english": "Very good",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Muito prazer em conhecer!",
+            "english": "Nice to meet you!",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Um problema a mais",
+            "english": "One more problem",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Atrasado",
+            "english": "Late",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Trazer",
+            "english": "To bring",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu trouxe",
+            "english": "I brought",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Você trouxe",
+            "english": "You brought",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Nós trouxemos",
+            "english": "We brought",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Vocês trouxeram",
+            "english": "You brought",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Dia do trabalho",
+            "english": "Labor Day",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Nosso aniversário de casamento",
+            "english": "Our wedding anniversary",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Escolher",
+            "english": "To choose",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Quanto tempo faz?",
+            "english": "How long has it been?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Celebrar",
+            "english": "Celebrate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Comemorar",
+            "english": "Celebrate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Coisas demais",
+            "english": "Too much stuff",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Essencial",
+            "english": "Essential",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Essenciais",
+            "english": "Essentials",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Pesada",
+            "english": "Heavy",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Está cada vez pior",
+            "english": "It&#39;s getting worse and worse",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A cada semana",
+            "english": "Every week",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ressonância magnética",
+            "english": "Magnetic resonance imaging",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Insuportável",
+            "english": "Unbearable",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sentar",
+            "english": "To sit",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Fazer uma pausa",
+            "english": "Take a break",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Para andar",
+            "english": "To walk",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Nós pegamos um hotel",
+            "english": "We got a hotel",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Nós ficamos em um hotel",
+            "english": "We stayed in a hotel",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu recebi um e-mail",
+            "english": "I received an email",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Movimentar o corpo",
+            "english": "Move your body",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Trabalhar a circulação",
+            "english": "Work on circulation",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu estava pensando…",
+            "english": "I was thinking…",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Solicitação",
+            "english": "Request",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Meu laptop quebrou",
+            "english": "My laptop broke",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Irritante",
+            "english": "Irritating",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Planejar",
+            "english": "Plan",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A reunião era sobre",
+            "english": "The meeting was about",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Estressante",
+            "english": "Stressful",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Que pena que você não vai hoje",
+            "english": "What a shame you&#39;re not going today",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "As aulas dela",
+            "english": "Her classes",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Desenvolvimento Full stack",
+            "english": "Full stack development",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Ela também é da tecnologia",
+            "english": "She is also from technology",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Cada vez mais",
+            "english": "More and more",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Quando ela entender",
+            "english": "When she understands",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Sentia que eu não estava aprendendo nada",
+            "english": "I felt like I wasn&#39;t learning anything.",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Usar de um jeito prático",
+            "english": "Use in a practical way",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Problemas reais",
+            "english": "Real problems",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Livros texto",
+            "english": "Textbooks",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "É muito divertido",
+            "english": "It&#39;s so much fun",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sobre o que o livro fala",
+            "english": "What the book is about",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Como está o tempo?",
+            "english": "How is the weather?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Um pouco frio",
+            "english": "A little cold",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Quanto, mais ou menos?",
+            "english": "How much, more or less?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Fresco",
+            "english": "Fresh",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Levantar peso",
+            "english": "Lift weights",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu não sabia como essa compra seria boa",
+            "english": "I didn&#39;t know how good this purchase would be",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Colegas de trabalho",
+            "english": "Coworkers",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Quando eu faço uma chamada",
+            "english": "When I make a call",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Tirar sarro",
+            "english": "Make fun",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eles tiraram sarro de mim",
+            "english": "They made fun of me",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Se importar",
+            "english": "Care",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Não faz diferença",
+            "english": "It makes no difference",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Gostei do chapéu",
+            "english": "I liked the hat",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Nós resolvemos muitos incidentes",
+            "english": "We have resolved many incidents",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Nós impedimos os incidentes de voltar",
+            "english": "We prevent incidents from happening again",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Fingir",
+            "english": "To fake",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu fingi",
+            "english": "I pretended",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Progredir",
+            "english": "Progress",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu progredi",
+            "english": "I progressed",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Para o resto da semana",
+            "english": "For the rest of the week",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Quiropraxista",
+            "english": "Chiropractor",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Dor no pé",
+            "english": "Foot pain",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Dor de estômago",
+            "english": "Stomach ache",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Dor de cabeça",
+            "english": "Headache",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Dor de garganta",
+            "english": "Sore throat",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Incomodar",
+            "english": "To disturb",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Alongar",
+            "english": "Stretch",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "A partir de agora",
+            "english": "From now on",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "O corpo precisa estar bem",
+            "english": "The body needs to be well",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Quando você vai ver o quiropraxista?",
+            "english": "When are you going to see the chiropractor?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Discos",
+            "english": "Discs",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Um médico",
+            "english": "A doctor",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Mais barato",
+            "english": "Cheaper",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Mais caro",
+            "english": "More expensive",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Tudo sob controle",
+            "english": "Everything under control",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Quanto tempo você corre?",
+            "english": "How long have you been running?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Que horas você vai correr?",
+            "english": "What time are you going to run?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "De manhã cedo",
+            "english": "Early morning",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Bem cedo",
+            "english": "Very early",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Se preparar",
+            "english": "Get ready",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ameaça",
+            "english": "Threat",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Não tem pessoas suspeitas",
+            "english": "There are no suspicious people",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Muito lentamente",
+            "english": "Very slowly",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sala de estar",
+            "english": "Living room",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Honestamente",
+            "english": "Honestly",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "O que tem dentro dessas caixas?",
+            "english": "What&#39;s inside these boxes?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "As partes principais da casa",
+            "english": "The main parts of the house",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Você está gostando desse formato de reunião?",
+            "english": "Are you enjoying this meeting format?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Está funcionando para você?",
+            "english": "Is it working for you?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sentar-se",
+            "english": "Sit down",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu me sento",
+            "english": "I sit down",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu estava doente",
+            "english": "I was sick",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu estou tossindo",
+            "english": "I&#39;m coughing",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Antibiótico",
+            "english": "Antibiotic",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "As pílulas",
+            "english": "The pills",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Os remédios",
+            "english": "The remedies",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Os comprimidos",
+            "english": "The pills",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Suplemento alimentar",
+            "english": "Food supplement",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "As coisas no trabalho",
+            "english": "Things at work",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Estão mais calmas agora?",
+            "english": "Are you calmer now?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Ela não me dá",
+            "english": "She doesn&#39;t give me",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ela não me passa trabalho",
+            "english": "She doesn&#39;t give me any work",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Impactante",
+            "english": "Impactful",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "O trabalho tem mais impacto",
+            "english": "Work has more impact",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Completar o trabalho",
+            "english": "Complete the work",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eles podem me dar o trabalho",
+            "english": "They can give me the job",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Atribuir trabalho",
+            "english": "Assign work",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A crise",
+            "english": "The crisis",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Problemas",
+            "english": "Problems",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eles me disseram",
+            "english": "They told me",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu fui informado",
+            "english": "I was informed",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Em equipe",
+            "english": "As a team",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Em grupo",
+            "english": "In group",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Me sinto mais realizado",
+            "english": "I feel more fulfilled",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Esteira",
+            "english": "Belt",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "É chamado de…",
+            "english": "It&#39;s called…",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Se chama",
+            "english": "It&#39;s called",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Saudável",
+            "english": "Healthy",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Colegas de trabalho",
+            "english": "Coworkers",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Você está animado",
+            "english": "You are excited",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Você gostou da compra",
+            "english": "Did you like the purchase?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Vai me fazer",
+            "english": "Will make me",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Vai me tornar",
+            "english": "Will make me",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Caminhar pela cidade",
+            "english": "Walk around the city",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Alergia",
+            "english": "Allergy",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Passar um tempo juntos",
+            "english": "Spend time together",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Se livrar de algo",
+            "english": "Get rid of something",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A gente quer se livrar de…",
+            "english": "We want to get rid of…",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sala de estar",
+            "english": "Living room",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "A “sala”",
+            "english": "The “room”",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "O bairro",
+            "english": "The neighborhood",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Moram muitas pessoas no mesmo prédio?",
+            "english": "Do many people live in the same building?",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "14 - quatorze",
+            "english": "14 - fourteen",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "40 - quarenta",
+            "english": "40 - forty",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Prédio (Edifício) Comercial",
+            "english": "Commercial Building",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Área turística",
+            "english": "Tourist area",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Lembrancinhas",
+            "english": "Souvenirs",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Lembrança",
+            "english": "Memory",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Útil",
+            "english": "Useful",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Úteis",
+            "english": "Useful",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Utilidades",
+            "english": "Utilities",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Uma distância a pé",
+            "english": "A walking distance",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Um episódio inteiro",
+            "english": "A whole episode",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Primeiramente",
+            "english": "Firstly",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Psicologia",
+            "english": "Psychology",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Programador - a pessoa",
+            "english": "Programmer - the person",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Programação - a atividade",
+            "english": "Programming - the activity",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Desenvolvedor - a pessoa",
+            "english": "Developer - the person",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Desenvolvimento - a atividade",
+            "english": "Development - the activity",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Um padrão",
+            "english": "A pattern",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Um dialeto",
+            "english": "A dialect",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Procura",
+            "english": "Search",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Muito improdutivo",
+            "english": "Very unproductive",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Uma coisa de rotina",
+            "english": "A routine thing",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "As próximas instruções",
+            "english": "The next instructions",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Os próximos passos",
+            "english": "The next steps",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Atualizações",
+            "english": "Updates",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "De qualquer maneira",
+            "english": "Anyway",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Animado",
+            "english": "Excited",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Minivan",
+            "english": "Minivan",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Van",
+            "english": "Van",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sedan",
+            "english": "Sedan",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Hatch",
+            "english": "Hatch",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Compacto",
+            "english": "Compact",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Caminhonete",
+            "english": "Pickup truck",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Caminhão",
+            "english": "Truck",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Trailer",
+            "english": "Trailer",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Primeiro de Agosto",
+            "english": "August 1st",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Por + a = Pela",
+            "english": "By + a = By",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Andar pela casa",
+            "english": "Walk around the house",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Os móveis",
+            "english": "The furniture",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pobre",
+            "english": "Poor",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Nós estamos pobres agora",
+            "english": "We are poor now",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "A maioria",
+            "english": "The majority",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Economias",
+            "english": "Economies",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "A poupança",
+            "english": "The savings",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Poupar",
+            "english": "Save",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Contratar um caminhão",
+            "english": "Hire a truck",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Alugar",
+            "english": "To hire",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Nós podemos",
+            "english": "We can",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Nós pudemos",
+            "english": "We could",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu estou ferrado! → “Tô ferrado”",
+            "english": "I&#39;m screwed! → “I&#39;m screwed”",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ferrar (com alguma coisa)",
+            "english": "To screw (with something)",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu estou fodido! → “Tô fodido”",
+            "english": "I&#39;m fucked! → “I&#39;m fucked”",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Foder (com alguma coisa)",
+            "english": "Fuck (with something)",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Típico",
+            "english": "Typical",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Jeito",
+            "english": "Way",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A variedade de regiões",
+            "english": "The variety of regions",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Tem jeitos diferentes",
+            "english": "There are different ways",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sotaques",
+            "english": "Accents",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "O sotaque do rio de janeiro é bem diferente",
+            "english": "The accent of Rio de Janeiro is very different",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Cansado",
+            "english": "Tired",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Descansar",
+            "english": "Rest",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Descansado",
+            "english": "Rested",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Acelerar",
+            "english": "Accelerate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Fliperama",
+            "english": "Arcade",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Boliche",
+            "english": "Bowling",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Não dá vergonha",
+            "english": "It&#39;s not embarrassing",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Fazer pontos",
+            "english": "Make points",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Estrada (de carro)",
+            "english": "Road (by car)",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "O marido",
+            "english": "The husband",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "O sogro",
+            "english": "The father-in-law",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ambos",
+            "english": "Both",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Precificar",
+            "english": "Price",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Uma ideia",
+            "english": "An idea",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu não sei se essa ideia",
+            "english": "I don&#39;t know if this idea",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Não tenho nada a ver com a ideia",
+            "english": "I have nothing to do with the idea",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Vender",
+            "english": "Sell",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A empresa vende seguidores no Instagram",
+            "english": "The company sells Instagram followers",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Seguir",
+            "english": "Follow",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Um amigo meu",
+            "english": "A friend of mine",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Uma vantagem",
+            "english": "An advantage",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Pacote",
+            "english": "Package",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Outro ambiente",
+            "english": "Another environment",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ambiente de produção",
+            "english": "Production environment",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Monitorar",
+            "english": "Monitor",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Levou duas semanas",
+            "english": "It took two weeks",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Compartilhar",
+            "english": "To share",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "A previsão",
+            "english": "The forecast",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A estimativa",
+            "english": "The estimate",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Um a Um",
+            "english": "One by One",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Piadas",
+            "english": "Jokes",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Copiar e colar",
+            "english": "Copy and paste",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 5
+        },
+        {
+            "portuguese": "Cartões de memória",
+            "english": "Memory cards",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Memorizar",
+            "english": "Memorize",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu memorizo",
+            "english": "I memorize",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Voce memoriza",
+            "english": "You memorize",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Força bruta",
+            "english": "Brute force",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Cringe",
+            "english": "Cringe",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Soletrada(o)",
+            "english": "Spelled",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Soletra",
+            "english": "Spell it",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "No momento",
+            "english": "At the moment",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Geração",
+            "english": "Generation",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Investimento",
+            "english": "Investment",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Cocô",
+            "english": "Coconut",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Pimenta",
+            "english": "Pepper",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Atualizar",
+            "english": "To update",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Enquadramento manual",
+            "english": "Manual framing",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "De qualquer forma / de qualquer jeito / de qualquer maneira (they all mean the same)",
+            "english": "Either way / anyhow / anyway (they all mean the same)",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Que bom que você viu / que bom que vc checou",
+            "english": "I&#39;m glad you saw / I&#39;m glad you checked",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Decidimos",
+            "english": "We decided",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Palavrão",
+            "english": "Swearword",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "A B C D E F G H I J K L M N O P Q  S T U V W X Y Z",
+            "english": "ABCDEFGHIJKLMNOPQSTUV WXYZ",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Mudar de faixa",
+            "english": "Change lanes",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Papel de liderança",
+            "english": "Leadership role",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pelo resto",
+            "english": "For the rest",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Eu penso ❌ eu ACHO ✅",
+            "english": "I think ❌ I THINK ✅",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Por do Sol",
+            "english": "Sunset",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Abreviação",
+            "english": "Abbreviation",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ah tá",
+            "english": "Oh there",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Anel 💍",
+            "english": "Ring 💍",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Tamanho",
+            "english": "Size",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Surtou",
+            "english": "freaked out",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Um com o outro",
+            "english": "One with the other",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Negar",
+            "english": "To deny",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Dividir",
+            "english": "To divide",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "No entanto",
+            "english": "However",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Peido 💨",
+            "english": "Fart 💨",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Demorado",
+            "english": "Delayed",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Deixa que eu faço",
+            "english": "Let me do it",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Seguro",
+            "english": "Safe",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Vidro",
+            "english": "Glass",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Embaçado",
+            "english": "Blurry",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Anúncio",
+            "english": "Announcement",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Outdoor (autidoor)",
+            "english": "Outdoor (outdoor)",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Eu não me importo",
+            "english": "I don&#39;t mind",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Fé",
+            "english": "Faith",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Confiança",
+            "english": "Trust",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Tá / está",
+            "english": "It is / it is",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Tô / estou",
+            "english": "I am / I am",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Sede",
+            "english": "Thirst",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pó",
+            "english": "Dust",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Tamanho",
+            "english": "Size",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Ao invés de",
+            "english": "Instead of",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Rins",
+            "english": "Kidneys",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Coceira",
+            "english": "Itch",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Abstinência",
+            "english": "Abstinence",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Dublado",
+            "english": "Dubbed",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Legendado",
+            "english": "Subtitled",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Moral",
+            "english": "Moral",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Pedido",
+            "english": "Order",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Endividado",
+            "english": "In debt",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        },
+        {
+            "portuguese": "Hino",
+            "english": "Hymn",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 3
+        },
+        {
+            "portuguese": "Relacionamento",
+            "english": "Relationship",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Desenvolver",
+            "english": "To develop",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 0
+        },
+        {
+            "portuguese": "Intermediario",
+            "english": "Intermediary",
+            "weight_en_to_pt": 9,
+            "weight_pt_to_en": 9
+        }
+    ]
+}
