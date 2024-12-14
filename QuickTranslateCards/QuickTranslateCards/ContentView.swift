@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  QuickTranslateCards
-//
-//  Created by Thomas Zwinger on 12/13/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -14,7 +7,7 @@ struct ContentView: View {
     @State private var showingFront = true
     @State private var showKnownWords = false
     @State private var showEnglishFirst = true
-    
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -24,50 +17,47 @@ struct ContentView: View {
                     endPoint: .bottomTrailing
                 )
                 .ignoresSafeArea()
-                
+
                 VStack(spacing: 20) {
-                    
-                    if let word = currentWord {
-                        FlashcardView(word: word, showEnglishFirst: showEnglishFirst, showingFront: $showingFront, onSwiped: handleSwipe)
-                            .offset(offset)
-                            .gesture(
-                                DragGesture()
-                                    .onChanged { value in
-                                        offset = value.translation
-                                    }
-                                    .onEnded { value in
-                                        let dragDistance = value.translation.width
-                                        withAnimation {
-                                            if dragDistance < -100 {
-                                                // Flicked left: known = 0
-                                                manager.updateWord(word, rating: 0)
-                                                dismissCardAndLoadNext()
-                                            } else if dragDistance > 100 {
-                                                // Flicked right: not known = 9
-                                                manager.updateWord(word, rating: 9)
-                                                dismissCardAndLoadNext()
-                                            } else {
-                                                // Not far enough, snap back
-                                                offset = .zero
+                    ZStack {
+                        if let word = currentWord {
+                            FlashcardView(word: word,
+                                          showEnglishFirst: showEnglishFirst,
+                                          showingFront: $showingFront,
+                                          onSwiped: handleSwipe)
+                                .id(word.id) // Make SwiftUI recognize card changes
+                                .offset(offset)
+                                .animation(.spring(), value: offset)
+                                .transition(.move(edge: .bottom)) // Transition from bottom
+                                .gesture(
+                                    DragGesture()
+                                        .onChanged { value in
+                                            offset = value.translation
+                                        }
+                                        .onEnded { value in
+                                            let dragDistance = value.translation.width
+                                            withAnimation {
+                                                if dragDistance < -100 {
+                                                    // Flicked left: known = 0
+                                                    manager.updateWord(word, rating: 0)
+                                                    dismissCardAndLoadNext()
+                                                } else if dragDistance > 100 {
+                                                    // Flicked right: not known = 9
+                                                    manager.updateWord(word, rating: 9)
+                                                    dismissCardAndLoadNext()
+                                                } else {
+                                                    // Not far enough, snap back
+                                                    offset = .zero
+                                                }
                                             }
                                         }
-                                    }
-                            )
-                    } else {
-                        Text("No words available")
-                            .font(.title)
-                            .foregroundColor(.white)
+                                )
+                        } else {
+                            Text("No words available")
+                                .font(.title)
+                                .foregroundColor(.white)
+                        }
                     }
-                    
-//                    Button("Next Card") {
-//                        loadNewCard()
-//                    }
-//                    .font(.headline)
-//                    .foregroundColor(.white)
-//                    .padding()
-//                    .background(Color.blue.opacity(0.8))
-//                    .cornerRadius(10)
-//                    .padding(.bottom, 60)
                 }
             }
             .toolbar {
@@ -92,23 +82,30 @@ struct ContentView: View {
             }
         }
     }
-    
+
     func loadNewCard() {
         showingFront = true
         offset = .zero
-        currentWord = manager.randomWord()
-    }
-    
-    func dismissCardAndLoadNext() {
-        // Animate off screen
-        let direction = offset.width < 0 ? CGFloat(-1000) : CGFloat(1000)
-        offset = CGSize(width: direction, height: offset.height)
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-            loadNewCard()
+        withAnimation {
+            currentWord = manager.randomWord()
         }
     }
-    
+
+    func dismissCardAndLoadNext() {
+        // Animate the current card off-screen before loading the next
+        let direction = offset.width < 0 ? CGFloat(-1000) : CGFloat(1000)
+        withAnimation {
+            offset = CGSize(width: direction, height: offset.height)
+        }
+
+        // After a brief delay, load the next card with the transition
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            withAnimation {
+                loadNewCard()
+            }
+        }
+    }
+
     private func handleSwipe(direction: SwipeDirection) {
         guard let word = currentWord else { return }
 
@@ -120,10 +117,9 @@ struct ContentView: View {
             manager.updateWord(word, rating: 9)
         }
 
-        // Load the next word
-        currentWord = manager.randomWord()
+        dismissCardAndLoadNext()
     }
-    
+
     private func toggleLanguage() {
         showEnglishFirst.toggle()
     }

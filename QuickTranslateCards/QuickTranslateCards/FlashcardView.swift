@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct FlashcardView: View {
-    let word: Word // Replace `Word` with the actual type
+    let word: Word
     let showEnglishFirst: Bool
     @Binding var showingFront: Bool
     @State private var offset = CGSize.zero
